@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CV Khvesko Volha</title>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+                background-image: url(images/fon.jpg);
+                background-repeat: no-repeat;
+                font-family: Georgia, 'Times New Roman', Times, serif
+            }
+
+            div {
+                width: 850px;
+                margin: 0px auto;
+            }
+
+            header {
+                text-align: center;
+            }
+
+           footer {
+                text-align: center;
+                background-color: orange  ;
+                border-top: 1px dotted orange;
+            }
+
+            h1 {
+                font-variant: small-caps;
+                font-size: 36px;
+            }
+
+            hr {
+                background-color: green;
+                height: 1.5px;;
+            }
+
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                padding: 8px;
+            }
+
+            th {
+                text-align: left;
+                background-color: #F9CF91 ;
+            }
+
+            tr:nth-child(even) {
+                background-color: #E5E8E8;
+
+            }
+            
+            #khvesko {
+                border-left: 10px solid orange;
+                border-top: 4px solid orange;
+            }
+         
+            
+         
+        </style>
+    </head>
+    <body>
+    <div>
+            <!--Header section-->
+        <header>
+        <h1>khvesko volha aleksandrovna</h1>
+        <img id="khvesko" src="images/photo.jpg" alt="Khvesko Volha" width="200">
+        <p style="font-size: 20px">Female, birthdate 4 February 1986 </p>
+        </header>
+
+
+            <!--Main section-->
+        <main>
+<!--Contact information--> 
+        <h2>Contact information:</h2>
+        <hr>
+        <ul>
+            <li>+375(29)772-11-91</li>
+            <li>olgahvesko@tut.by</li>
+
+        </ul>
+        <br>
+
+<!--Work experience-->
+        <h2>Work experience:</h2>
+        <hr>
+        <br>
+        <table>
+            <tr>
+                <th>TIME</th>
+                <th>WORK</th>
+            </tr>
+            <tr>
+                <td>September 2020 - until now</td>
+                <td>Yandex, Assesor-tester (regression testing of different products
+                     using ready-made scenarious)</td> 
+            </tr>
+            <tr>
+               <td>February 2015 - until now</td>
+               <td>CJSC Online Store Euroopt, Economist (formation retail prices for goods; revaluations 
+                   of goods; price adjusting; fixing prices per store promotion; work with CMR 
+                   consignment notes; daily report generation; work with sales receipts, etc.)</td>
+            </tr>
+            <tr>
+                <td>March 2020 - December 2020</td>
+                <td>LLC Exbreiner, Remote analyst (search and structuring of information; 
+                    data analysis; formation of proposals based on the analyzed information; 
+                    information visualization)</td>
+            </tr>
+            <tr>
+                <td>October 2019 - February 2020</td>
+                <td>Strategy Partners Group, Remote Analyst (search and structuring of information; 
+                    data analysis; formation of proposals based on the analyzed information; 
+                    information visualization)</td>
+            </tr>
+            <tr>
+                <td>March 2013 - January 2015</td>
+                <td>LLC Eurotorg, shops Euroopt, Economist (formation retail prices for goods; revaluations; 
+                    documenting the return of goods; formalization of price tags; fixing prices per store promotion;
+                    daily report generation; work with CMR consignment notes; 
+                    write-off goods according to documents, etc.)</td>
+            </tr>
+            <tr>
+                <td>August 2011 - January 2013</td>
+                <td>Rublevski, supermarkets chain, PC operator (work with CMR consignment notes with using program Formular;
+                documenting the return of goods; printing price tags; revaluations, etc.)</td>
+            </tr>
+        </table>
+        <br>
+
+<!--Education-->
+        <h2>Education:</h2>
+        <hr>
+        <br>
+        <table>
+            <tr>
+                <th>
+                    YEAR
+                </th>
+                <th>
+                    EDUCATIONAL INSITUTION
+                </th>
+            </tr>
+            <tr>
+                <td>2016</td>
+                <td>Belarusian State University of Informatics and Radioelectronics, Minsk 
+                    (Engineering and economics, Economics and organization of production)</td>
+            </tr>
+            <tr>
+                <td>2010</td>
+                <td>Minsk Financial and Economic College (Marketing)</td>
+            </tr>
+            <tr>
+                <td>2007</td>
+                <td>Belarusian State Tehnological University, Minsk 
+                    (Chemical technology and enginnering, Electrochemical production technology)</td>
+            </tr>
+        </table>
+        <br>
+
+<!--Training, courses-->
+        <h2>Training, courses:</h2>
+        <hr>
+        <br>
+        <table>
+            <tr>
+                <th>
+                    YEAR
+                </th>
+                <th>
+                    COURSE
+                </th>
+            </tr>
+            <tr>
+                <td>2012</td>
+                <td>High-Tech Park Education Center (Software Testing Engineer)</td>
+            </tr>
+            <tr>
+                <td>2011</td>
+                <td>Training Technology Center JSC BELHARD (Software Testing)</td>
+            </tr>
+            <tr>
+                <td>2010</td>
+                <td>Training Technology Center JSC BELHARD (Programming in C language)</td>
+            </tr>
+        </table>
+        <br>
+
+<!--Key skills-->
+        <h2>Key skills:</h2>
+        <hr>
+        <p><b>Languages: </b>Belorussian - Native; Russian - C2 level; English - B1 level</p>
+        <p><b>Skills: </b>HTML, CSS, Git, GitHub, VS Code</p>
+        <br>
+
+<!--Example of my code-->
+        <h2>Example of my code:</h2>
+        <hr>
+        <p><code>
+            "use strict”; <br> 
+            function ask(question, yes,no) { <br>
+            if (confirm(question)) yes(); else no(); } <br>
+            ask ( “Do you agree?”, () => alert(“You agreed.”), () => alert(“You canceled the execution.”) )
+        </code></p>
+        <br>
+        </main>
+    </div>
+
+            <!--Footer section-->
+        <footer>
+        <br>
+        <a href="https://github.com/OlgaKhvesko" target="_blank">Github Volha Khvesko, 2021</a>
+        <br>
+        <br>
+        <a href="https://rs.school/js/" target="_blank"><img src="images/rs_school_js.svg" alt="logo RSSchool" width="220"></a>
+        <br>
+        <br>
+        </footer>
+    </body>
+</html>
