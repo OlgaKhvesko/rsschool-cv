@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(fon.jpg);
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+div {
+    width: 850px;
+    margin: 0px auto;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: orange  ;
+    border-top: 1px dotted orange;
+}
+
+h1 {
+    font-variant: small-caps;
+    font-size: 36px;
+}
+
+hr {
+    background-color: green;
+    height: 1.5px;;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+}
+
+th {
+    text-align: left;
+    background-color: #F9CF91 ;
+}
+
+tr:nth-child(even) {
+    background-color: #E5E8E8;
+
+}
+
+#khvesko {
+    border-left: 10px solid orange;
+    border-top: 4px solid orange;
+}
